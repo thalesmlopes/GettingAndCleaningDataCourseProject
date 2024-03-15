@@ -69,4 +69,6 @@ tidyData <- dataWithActivityNames %>%
   group_by(subjectNumber, activityNumber, activityName) %>% 
   summarize_all(mean)
 
-return(tidyData)
+#write the tidy dataset into a file .txt
+
+write.table(tidyData, "tidyData.txt", row.names = FALSE)
