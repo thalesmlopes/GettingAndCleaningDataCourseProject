@@ -19,4 +19,6 @@ Here are the data for the project:
     Appropriately labels the data set with descriptive variable names;
     Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-3. 
+3. tidyData.txt -> the final tidy data set obtained from the process of cleaning the raw data with the steps contained in run_analysis.R;
+
+4. codeBook.md ->  a code book that describes the variables, the data, and any transformations or work that has been performed to clean up the data.
