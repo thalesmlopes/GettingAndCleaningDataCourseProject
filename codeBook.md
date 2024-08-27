@@ -1,3 +1,4 @@
+After merging the data sets available at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip, extract the measurements on the mean and standard deviation for each measurement and use descriptive activity names to name the activities and labels in the data set, we obtained the 82 features listed below, wich represent the columns of the final dataset: 
 "subjectNumber" 
 "activityNumber" 
 "activityName" 
@@ -80,3 +81,5 @@
 "frequencyBodyGyroscopeJerkMagnitude-mean()" 
 "frequencyBodyGyroscopeJerkMagnitude-std()" 
 "frequencyBodyGyroscopeJerkMagnitude-meanFreq()"
+
+More information about the original features and it's obtaining are available at the files README.txt, features.txt and features_info.txt at the link in the beginnig of this file.
